@@ -17,7 +17,7 @@ public class FullNameApplication {
         printFullName(firstName, middleName, lastName, suffix);
     }
 
-    private static void printFullName(String firstName, String middleName, String lastName, String suffix) {
+    public static void printFullName(String firstName, String middleName, String lastName, String suffix) {
         StringBuilder fullNameBuilder = new StringBuilder();
         fullNameBuilder.append(firstName).append(" ");
         if (!middleName.isEmpty()) {
