@@ -1,4 +1,4 @@
-package com.pluralsight.FullNameGenerator;
+package main.java.com.pluralsight.FullNameGenerator;
 
 import java.util.Scanner;
 
