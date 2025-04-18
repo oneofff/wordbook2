@@ -9,11 +9,9 @@ import java.util.Map;
 public class RollResults {
     private Map<Integer, Long> results = new HashMap<>();
 
-
     public void incrementCount(int sum) {
         results.put(sum, results.getOrDefault(sum, 0L) + 1);
     }
-
 
     public void printHistogram() {
         System.out.println("Roll Results (Histogram):");
