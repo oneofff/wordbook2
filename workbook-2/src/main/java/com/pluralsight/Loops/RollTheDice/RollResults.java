@@ -25,7 +25,8 @@ public class RollResults {
             int sum = entry.getKey();
             long count = entry.getValue();
             int stars = (int) (count / scale);
-            System.out.println(sum + ": " + "*".repeat(stars));
+
+            System.out.println((sum < 10 ? sum + " : ": sum + ": ") + "*".repeat(stars));
         }
 
         System.out.println("\n(Note: Each * represents approximately " + scale + " rolls)");
